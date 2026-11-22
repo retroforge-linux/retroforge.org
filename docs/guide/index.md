@@ -21,13 +21,13 @@ RetroForge turns a Snapdragon handheld from AYANEO, AYN, Retroid, KONKR, MANGMI 
 
     Which emulator runs each system, and where games and BIOS files go.
 
--   :lucide-refresh-cw: __[Updates](updates.md)__
-
-    How RetroForge keeps itself up to date, safely.
-
 -   :lucide-keyboard: __[Hotkeys](hotkeys.md)__
 
     Hold Guide for save states, fast-forward and quitting.
+
+-   :lucide-refresh-cw: __[Updates](updates.md)__
+
+    How RetroForge keeps itself up to date, safely.
 
 -   :lucide-circle-help: __[FAQ](faq.md)__
 
