@@ -1,44 +1,45 @@
-/* RetroForge brand: teal chip, mint highlights, forge-orange core. */
+/* RetroForge brand: steel-blue forge, navy outline, gold embers. */
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap");
 
 :root {
-  --rf-bg: #121313;
-  --rf-teal: #1b7a63;
-  --rf-teal-dark: #125746;
-  --rf-mint: #52c59c;
-  --rf-white: #eef7f4;
-  --rf-orange: #d85028;
+  --rf-bg: #10161d;
+  --rf-steel: #4a657b;
+  --rf-steel-dark: #2c3e50;
+  --rf-steel-light: #9fbbc6;
+  --rf-gold: #e2c88e;
+  --rf-brass: #bfa16f;
+  --rf-white: #eef3f6;
 }
 
 [data-md-color-primary="custom"] {
-  --md-primary-fg-color: var(--rf-teal);
-  --md-primary-fg-color--light: var(--rf-mint);
-  --md-primary-fg-color--dark: var(--rf-teal-dark);
+  --md-primary-fg-color: var(--rf-steel);
+  --md-primary-fg-color--light: var(--rf-steel-light);
+  --md-primary-fg-color--dark: var(--rf-steel-dark);
   --md-primary-bg-color: #ffffff;
   --md-primary-bg-color--light: #ffffffb3;
 }
 
 [data-md-color-accent="custom"] {
-  --md-accent-fg-color: var(--rf-orange);
-  --md-accent-fg-color--transparent: #d850281a;
+  --md-accent-fg-color: var(--rf-brass);
+  --md-accent-fg-color--transparent: #bfa16f1a;
   --md-accent-bg-color: #ffffff;
 }
 
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: var(--rf-bg);
-  --md-default-bg-color--light: #121313b3;
-  --md-typeset-a-color: var(--rf-mint);
-  --md-code-bg-color: #1a1d1d;
-  --md-footer-bg-color: #0d0e0e;
-  --md-footer-bg-color--dark: #090a0a;
+  --md-default-bg-color--light: #10161db3;
+  --md-typeset-a-color: var(--rf-gold);
+  --md-code-bg-color: #18212b;
+  --md-footer-bg-color: #0b1016;
+  --md-footer-bg-color--dark: #070a0e;
 }
 
 [data-md-color-scheme="slate"][data-md-color-primary="custom"] {
-  --md-primary-fg-color: #151918;
+  --md-primary-fg-color: #141c25;
 }
 
 [data-md-color-scheme="default"] {
-  --md-typeset-a-color: var(--rf-teal);
+  --md-typeset-a-color: var(--rf-steel);
 }
 
 .md-typeset h1,
@@ -59,16 +60,16 @@
   border-radius: 1rem;
   overflow: hidden;
   background-image:
-    radial-gradient(circle at 50% 45%, #1b7a6340 0, transparent 60%),
-    linear-gradient(to right, #52c59c0a 1px, transparent 1px),
-    linear-gradient(to bottom, #52c59c0a 1px, transparent 1px);
+    radial-gradient(circle at 50% 45%, #4a657b40 0, transparent 60%),
+    linear-gradient(to right, #9fbbc60a 1px, transparent 1px),
+    linear-gradient(to bottom, #9fbbc60a 1px, transparent 1px);
   background-size: auto, 40px 40px, 40px 40px;
 }
 
-.rf-hero__logo {
-  width: 9rem;
-  height: 9rem;
-  filter: drop-shadow(0 0 20px #52c59c66);
+.md-typeset .rf-hero__logo {
+  width: auto;
+  height: 11rem;
+  filter: drop-shadow(0 0 20px #e2c88e40);
   animation: rf-float 6s ease-in-out infinite;
 }
 
@@ -80,8 +81,8 @@
   color: var(--md-default-fg-color);
 }
 
-.rf-hero h1 .rf-mint { color: var(--rf-mint); }
-[data-md-color-scheme="default"] .rf-hero h1 .rf-mint { color: var(--rf-teal); }
+.rf-hero h1 .rf-mint { color: var(--rf-gold); }
+[data-md-color-scheme="default"] .rf-hero h1 .rf-mint { color: var(--rf-steel); }
 
 .rf-hero__lead {
   font-size: 1.1rem;
@@ -95,41 +96,41 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.3rem 0.9rem;
-  border: 1px solid #52c59c40;
+  border: 1px solid #e2c88e40;
   border-radius: 999px;
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--rf-mint);
+  color: var(--rf-gold);
 }
-[data-md-color-scheme="default"] .rf-pill { color: var(--rf-teal); }
+[data-md-color-scheme="default"] .rf-pill { color: var(--rf-steel); border-color: #4a657b40; }
 
 .rf-pill::before {
   content: "";
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background: var(--rf-orange);
+  background: var(--rf-gold);
   animation: rf-pulse 2.5s ease-in-out infinite;
 }
 
 .md-typeset .rf-hero .md-button { margin: 0.25rem; }
 
 .md-typeset .rf-hero .md-button--primary {
-  background-color: var(--rf-mint);
-  border-color: var(--rf-mint);
+  background-color: var(--rf-gold);
+  border-color: var(--rf-gold);
   color: var(--rf-bg);
 }
 [data-md-color-scheme="default"] .md-typeset .rf-hero .md-button--primary {
-  background-color: var(--rf-teal);
-  border-color: var(--rf-teal);
+  background-color: var(--rf-steel);
+  border-color: var(--rf-steel);
   color: #fff;
 }
 .md-typeset .rf-hero .md-button--primary:hover {
-  background-color: var(--rf-orange);
-  border-color: var(--rf-orange);
-  color: #fff;
+  background-color: var(--rf-steel-light);
+  border-color: var(--rf-steel-light);
+  color: var(--rf-bg);
 }
 
 /* No edit button on the landing page. */
@@ -137,7 +138,7 @@
 
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid > .card {
-  border-color: #52c59c2e;
+  border-color: #9fbbc62e;
 }
 
 @keyframes rf-float {
@@ -156,7 +157,7 @@
 
 @media screen and (max-width: 44.9375em) {
   .md-typeset .rf-hero h1 { font-size: 1.9rem; }
-  .rf-hero__logo { width: 6.5rem; height: 6.5rem; }
+  .md-typeset .rf-hero__logo { height: 8rem; }
   .rf-hero { padding: 2rem 0.5rem; }
   .rf-hero__lead { font-size: 0.95rem; }
 }
