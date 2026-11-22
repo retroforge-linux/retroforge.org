@@ -15,6 +15,7 @@ nav = [
     "guide/index.md",
     "guide/requirements.md",
     "guide/installation.md",
+    "guide/emulators.md",
     "guide/updates.md",
     "guide/hotkeys.md",
     "guide/faq.md",

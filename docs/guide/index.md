@@ -17,6 +17,10 @@ RetroForge turns a Snapdragon handheld from AYANEO, AYN, Retroid, KONKR, MANGMI 
 
     Flash the image to an SD card, insert it and boot.
 
+-   :lucide-gamepad-2: __[Emulators, ROMs and BIOS](emulators.md)__
+
+    Which emulator runs each system, and where games and BIOS files go.
+
 -   :lucide-refresh-cw: __[Updates](updates.md)__
 
     How RetroForge keeps itself up to date, safely.
