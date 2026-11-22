@@ -17,7 +17,7 @@ These handhelds ship with Android, and the bootloader has to be unlocked before 
 
 Your device must already be running [OpenABL](https://github.com/OpenHandheldCollective/OpenABL), the custom bootloader that can start a Linux system on these handhelds at all. It is the community continuation of the ROCKNIX ABL, so if you already run ROCKNIX you have a compatible one.
 
-RetroForge does not ship a bootloader. On a stock Android bootloader a RetroForge card simply does nothing.
+RetroForge does not ship a bootloader. On a stock Android bootloader, a RetroForge SD card simply does nothing.
 
 !!! danger "Flash OpenABL carefully"
 
@@ -25,4 +25,4 @@ RetroForge does not ship a bootloader. On a stock Android bootloader a RetroForg
 
 ## An SD card
 
-A spare microSD card to hold RetroForge. Everything on it is erased when the image is written, so back up anything you want to keep.
+A spare SD card to hold RetroForge. Everything on it is erased when the image is written, so back up anything you want to keep.

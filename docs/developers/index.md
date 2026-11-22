@@ -31,7 +31,7 @@ The build lives in the `os-build` repository. Its tree follows the order a build
 |---|---|
 | `rootfs/` | What is inside a root: the package closure, the bootstrap, and the seal, trim and guard steps |
 | `rootfs/overlay/` | Files injected into every root, mirroring the device's filesystem |
-| `image/` | Turning a root into partitions: the A/B layout, initramfs and card assembler |
+| `image/` | Turning a root into partitions: the A/B layout, initramfs and SD card assembler |
 | `ota/` | Signed RAUC bundles and their publishing |
 | `installer/` | The internal-storage installer |
 | `packages/` | PKGBUILDs for what RetroForge patches or version-bumps |

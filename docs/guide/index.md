@@ -15,7 +15,7 @@ RetroForge turns a Snapdragon handheld from AYANEO, AYN, Retroid, KONKR, MANGMI 
 
 -   :lucide-download: __[Installation](installation.md)__
 
-    Flash the image to a card, insert it and boot.
+    Flash the image to an SD card, insert it and boot.
 
 -   :lucide-refresh-cw: __[Updates](updates.md)__
 

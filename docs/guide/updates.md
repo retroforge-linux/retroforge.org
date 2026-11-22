@@ -5,7 +5,7 @@ description: How RetroForge updates itself without risking your device.
 
 # Updates
 
-RetroForge updates itself over Wi-Fi. You never have to reflash a card to get a new version.
+RetroForge updates itself over Wi-Fi. You never have to reflash an SD card to get a new version.
 
 ## How it works
 
