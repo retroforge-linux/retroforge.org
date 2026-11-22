@@ -11,17 +11,20 @@ RetroForge is an immutable, A/B-updatable aarch64 Linux distribution for Qualcom
 
 RetroForge stands on the work of others.
 
+**[OpenGamepadUI](https://opengamepadui.readthedocs.io/en/latest/)**
+:   The gamepad-first shell you see from the moment RetroForge boots. OpenGamepadUI gives RetroForge its library, menus, quick bar and on-screen keyboard, and its plugin system is how RetroForge adds emulators, ROMs and handheld settings on top. Without it there would be no console-like experience to build.
+
 **[ROCKNIX](https://rocknix.org/)**
-:   Showed that a console-style handheld experience on this hardware was a real target.
+:   The majority of RetroForge's hardware bring-up comes from ROCKNIX. Its kernel patches, device trees and device-by-device enablement are what make these handhelds work at all: display panels, controllers, audio, power and suspend, board by board across every supported Snapdragon chip. ROCKNIX also showed that a console-style handheld experience on this hardware was a real target.
 
 **[Nova-Deck](https://github.com/Nova-Deck/os-build)**
 :   RetroForge's build system, A/B update path, installer, hardware layer and most of its tooling started as a copy of Nova-Deck's os-build, adapted for retro emulation.
 
 **[OpenABL](https://github.com/OpenHandheldCollective/OpenABL/)**
-:   OpenABL is the foundation everything here stands on. These handhelds ship an Android bootloader that will not load an ordinary Linux boot flow, and solving that gates every other problem. Beyond that: the kernel enablement, device trees and device-by-device bring-up this class of hardware depends on.
+:   OpenABL is the foundation everything here stands on. These handhelds ship an Android bootloader that will not load an ordinary Linux boot flow, and solving that gates every other problem.
 
 **And more**
-:   Valve and Collabora, whose aarch64 Arch port RetroForge builds on, and the Mesa, gamescope, InputPlumber, OpenGamepadUI and RAUC projects.
+:   Batocera and Armada. Valve and Collabora, whose aarch64 Arch port RetroForge builds on, and the Mesa, gamescope, InputPlumber and RAUC projects.
 
 ## Licence
 
