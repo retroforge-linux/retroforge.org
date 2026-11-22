@@ -21,6 +21,10 @@ RetroForge turns a Snapdragon handheld from AYANEO, AYN, Retroid, KONKR, MANGMI 
 
     How RetroForge keeps itself up to date, safely.
 
+-   :lucide-keyboard: __[Hotkeys](hotkeys.md)__
+
+    Hold Guide for save states, fast-forward and quitting.
+
 -   :lucide-circle-help: __[FAQ](faq.md)__
 
     Common questions about RetroForge and your device.

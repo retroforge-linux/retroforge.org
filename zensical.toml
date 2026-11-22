@@ -16,6 +16,7 @@ nav = [
     "guide/requirements.md",
     "guide/installation.md",
     "guide/updates.md",
+    "guide/hotkeys.md",
     "guide/faq.md",
   ] },
   { "Devices" = "devices/index.md" },
