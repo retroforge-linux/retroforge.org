@@ -9,7 +9,7 @@ Before you start, make sure you have everything on [What you need](requirements.
 
 ## 1. Download the image
 
-Download the latest `retroforge-<version>.img.gz` from the releases page. There is one image for every supported device, so there is nothing to choose.
+Download the latest `retroforge-<version>.img.gz` from the latest [GitHub](https://github.com/retroforge-linux/os-build/releases/latest) release page. There is one image for every supported device, so there is nothing to choose.
 
 ## 2. Write it to an SD card
 
