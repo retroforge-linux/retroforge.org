@@ -11,6 +11,7 @@ edit_uri = "edit/master/docs/"
 
 nav = [
   { "Home" = "index.md" },
+  { "Download" = "https://github.com/retroforge-linux/os-build/releases/latest" },
   { "Guide" = [
     "guide/index.md",
     "guide/requirements.md",
