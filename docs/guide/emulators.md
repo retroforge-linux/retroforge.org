@@ -35,9 +35,9 @@ Libretro cores, installed with RetroArch.
 
 | System | ROM folder | File types | BIOS in `~/bios` |
 |---|---|---|---|
-| Game Boy<br><small>armGBA core</small> | `~/roms/gb`{ style="white-space: nowrap" } | `gb` `zip` `7z` | None |
-| Game Boy Color<br><small>armGBA core</small> | `~/roms/gbc`{ style="white-space: nowrap" } | `gbc` `gb` `zip` `7z` | None |
-| Game Boy Advance<br><small>armGBA core</small> | `~/roms/gba`{ style="white-space: nowrap" } | `gba` `zip` `7z` | None |
+| Game Boy<br><small>armGBA core</small> | `~/roms/gb`{ style="white-space: nowrap" } | `gb` `zip` `7z` | Optional<br>`gb_bios.bin` |
+| Game Boy Color<br><small>armGBA core</small> | `~/roms/gbc`{ style="white-space: nowrap" } | `gbc` `gb` `zip` `7z` | Optional<br>`gbc_bios.bin` |
+| Game Boy Advance<br><small>armGBA core</small> | `~/roms/gba`{ style="white-space: nowrap" } | `gba` `zip` `7z` | Optional<br>`gba_bios.bin` |
 | Super Nintendo<br><small>Snes9x core</small> | `~/roms/snes`{ style="white-space: nowrap" } | `sfc` `smc` `zip` | None |
 | Nintendo 64<br><small>armN64 core (HLE)</small> | `~/roms/n64`{ style="white-space: nowrap" } | `z64` `n64` `v64` `zip` `7z` | None[^n64] |
 | Mega Drive<br><small>Genesis Plus GX core</small> | `~/roms/md`{ style="white-space: nowrap" } | `md` `gen` `bin` `zip` | None |
